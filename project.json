@@ -1,0 +1,30 @@
+{
+  "name": "Template_Project",
+  "description": "Template Project RPA\r\n\r\n09/06/2019\r\n\r\n\r\nLeando Santos",
+  "main": "Main.xaml",
+  "dependencies": {
+    "elmah.io.apps.github": "1.0.13",
+    "GitHub": "1.14.1",
+    "UiPath.Excel.Activities": "[2.5.3]",
+    "UiPath.Mail.Activities": "[1.4.0]",
+    "UiPath.System.Activities": "[19.4.0]",
+    "UiPath.UIAutomation.Activities": "[19.4.1]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
